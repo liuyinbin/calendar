@@ -1,7 +1,6 @@
 # calendar
 
-> A Vue.js project
-
+> 这是一个关于日历的控件(可以周月切换显示,可滑动)
 ## Build Setup
 
 ``` bash
