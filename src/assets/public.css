@@ -1,0 +1,141 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body,
+html,
+h4,
+ul,
+ol,
+li,
+a,
+div,
+input,
+p,
+textarea,
+button {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: "Microsoft Yahei", sans-serif;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto;
+    /*webkit浏览器*/
+    font-size: .16rem;
+    padding: 0;
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+
+/*::-webkit-scrollbar {*/
+
+
+/*width:0px;*/
+
+
+/*height: 0px;*/
+
+
+/*}*/
+
+
+/*!*定义滚动条轨道 内阴影+圆角*!*/
+
+
+/*::-webkit-scrollbar-track {*/
+
+
+/*box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);*/
+
+
+/*border-radius: 10px;*/
+
+
+/*background-color: #F5F5F5;*/
+
+
+/*}*/
+
+
+/*!* 定义滑块 内阴影+圆角*!*/
+
+
+/*::-webkit-scrollbar-thumb {*/
+
+
+/*border-radius: 10px;*/
+
+
+/*box-shadow: inset 0 0 6px rgba(0, 0, 0, .1);*/
+
+
+/*background-color: #ccc;*/
+
+
+/*}*/
+
+input[type="button"],
+input[type="submit"],
+input[type="search"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+textarea {
+    -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #c7c7cc;
+    font-size: 16px;
+    text-align: left;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c7c7cc;
+    text-align: left;
+    font-size: 16px;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #dedede;
+    text-align: left;
+    font-size: 16px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #dedede;
+    text-align: left;
+    font-size: 16px;
+}
+
+.smllist {
+    clear: both;
+    width: 200%;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    transform: scale(0.5);
+    transform-origin: 0 0;
+    border-bottom: 1px solid #ccc;
+}
