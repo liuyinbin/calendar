@@ -1,8 +1,8 @@
 {
-  "name": "calendar",
+  "name": "y",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "liuyinbin",
+  "description": "",
+  "author": "liuyinbin <1351230307@qq.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
