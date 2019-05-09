@@ -32,7 +32,7 @@
         itemWidth:0,  //窗口的宽度
         move_index:0, // 左右移动 1 向右移动-1向左移动
         line_num:0, //  选中或今天是第几行的周
-        is_week:true, //是否是周历模式
+        is_week:false, //是否是周历模式
       }
     },
     props:['checkDate'],
